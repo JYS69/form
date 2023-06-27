@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Funny Grid Layout</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    .grid-item {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .grid-item:hover {
+      background-color: #f2f2f2;
+    }
+    .grid-item h3 {
+      margin-bottom: 10px;
+    }
+    .grid-item p {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Funny Grid Layout!</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h3>Cat</h3>
+        <p>Cute and furry!</p>
+        <img src="https://example.com/cat.jpg" alt="Cat">
+      </div>
+      <div class="grid-item">
+        <h3>Dog</h3>
+        <p>Loyal and playful!</p>
+        <img src="https://example.com/dog.jpg" alt="Dog">
+      </div>
+      <div class="grid-item">
+        <h3>Rabbit</h3>
+        <p>Fluffy and hoppy!</p>
+        <img src="https://example.com/rabbit.jpg" alt="Rabbit">
+      </div>
+      <div class="grid-item">
+        <h3>Monkey</h3>
+        <p>Smart and mischievous!</p>
+        <img src="https://example.com/monkey.jpg" alt="Monkey">
+      </div>
+      <div class="grid-item">
+        <h3>Penguin</h3>
+        <p>Adorable and waddly!</p>
+        <img src="https://example.com/penguin.jpg" alt="Penguin">
+      </div>
+      <div class="grid-item">
+        <h3>Elephant</h3>
+        <p>Gentle and majestic!</p>
+        <img src="https://example.com/elephant.jpg" alt="Elephant">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
